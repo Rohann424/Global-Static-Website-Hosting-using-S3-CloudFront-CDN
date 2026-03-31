@@ -56,7 +56,7 @@ The setup includes **static website hosting**, **secure access configuration**, 
 
 ![Project Screenshot](Archiecture-Diagram.png)
 
-- **Project Flow :**
+- **System Flow :**
 
 1. User requests website using CloudFront URL
 2. CloudFront checks if content is cached
@@ -64,6 +64,22 @@ The setup includes **static website hosting**, **secure access configuration**, 
 4. If not cached → fetches from S3 bucket
 5. Content is delivered to user and cached at edge location
 6. Future requests are served faster from cache
+
+
+- **Project Flow :** (IMPLEMENTATION FLOW)
+
+1. Created S3 bucket for static website hosting
+2. Uploaded website files (index.html)
+3. Enabled static website hosting in S3
+4. Configured bucket policy for public access
+5. Verified website using S3 endpoint
+6. Created CloudFront distribution
+7. Connected S3 as origin
+8. Enabled HTTPS redirection
+9. Configured Origin Access Control (OAC)
+10. Accessed website via CloudFront URL
+11. Tested caching behavior
+12. Performed cache invalidation
 
 
 
