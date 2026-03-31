@@ -99,12 +99,12 @@ If the requested content is not cached, CloudFront retrieves it from the S3 buck
 
   Enabled static website hosting from the **bucket properties** and defined **index.html** as the **default document**.
 
-  ![Project Screenshot](screenshots/01-bucket-policy.png)
+  ![Project Screenshot](screenshots/01-static-website-hosting-enabled.png)
 
 
   Updated the **bucket policy** to **allow public read access (s3:GetObject)** for all objects inside the bucket to resolve access issues and make the **website publicly accessible**.
 
-  ![Project Screenshot](screenshots/)
+  ![Project Screenshot](screenshots/01-bucket-policy.png)
 
 
 
