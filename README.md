@@ -89,7 +89,9 @@ If the requested content is not cached, CloudFront retrieves it from the S3 buck
 - **Step 1 :** **S3 SETUP + WEBSITE HOSTING**
 
   Created an **Amazon S3 bucket** with a globally **unique name** and configured it for **static website hosting**.
+  
   Disabled the “**Block all public access**” setting to allow public access.
+  
   Uploaded the website files **(index.html)** into the bucket.
 
   ![Project Screenshot](screenshots/01-bucket-created.png)
