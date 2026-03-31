@@ -141,7 +141,7 @@ Accessed the **CloudFront URL** and observed that the **previous version** of th
 
 Created a **cache invalidation** request in CloudFront using the **/*** path to clear all **cached objects**. 
 
-![Project Screenshot](screenshots/04-cloudfront-output.png)
+![Project Screenshot](screenshots/05-cache-invalidatation-output.png)
 
 Verified that the **updated content** was successfully fetched from the **S3 origin** and displayed correctly after **invalidation**.
 
