@@ -38,7 +38,23 @@ The setup includes **static website hosting**, **secure access configuration**, 
   
   --Highly scalable and cost-effective architecture
 
+- **Real-World Applications :**
 
+  --Company landing pages
+  
+  --Portfolio websites
+  
+  --Documentation hosting
+  
+  --Marketing campaign pages
+  
+  --Static frontend for web applications
+  
+  --Content delivery for global users
+
+- **Archiecture Diagram :**
+
+![Project Screenshot]()
 
 
 
