@@ -133,6 +133,9 @@ Accessed the website using the **CloudFront distribution** **domain name** and v
 ![Project Screenshot](screenshots/04-cloudfront-output.png)
 
 
+- **Step 5 :** **CACHING TEST + INVALIDATION**
+
+
 
 
 
