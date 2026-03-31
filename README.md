@@ -20,6 +20,15 @@ The setup includes **static website hosting**, **secure access configuration**, 
   -Amazon CloudFront
   -AWS IAM
 
+- **Key Features :**
+
+- Static website hosting using S3
+- Global content delivery using CloudFront CDN
+- HTTPS secure access with automatic redirection
+- Improved performance through caching
+- Controlled access using Origin Access Control (OAC)
+- Cache invalidation for real-time content updates
+- Highly scalable and cost-effective architecture
 
 
 
