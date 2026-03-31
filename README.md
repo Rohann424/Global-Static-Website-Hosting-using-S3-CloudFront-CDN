@@ -16,9 +16,9 @@ The setup includes **static website hosting**, **secure access configuration**, 
 
 - **Services Used :**
   
-  Amazon S3
-  Amazon CloudFront
-  AWS IAM
+  -Amazon S3
+  -Amazon CloudFront
+  -AWS IAM
 
 
 
