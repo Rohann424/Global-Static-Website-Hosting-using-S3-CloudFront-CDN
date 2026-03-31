@@ -54,7 +54,7 @@ The setup includes **static website hosting**, **secure access configuration**, 
 
 - **Archiecture Diagram :**
 
-![Project Screenshot]()
+![Project Screenshot](Archiecture-Diagram.png)
 
 
 
