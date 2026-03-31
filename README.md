@@ -128,6 +128,10 @@ Initiated the **distribution deployment** and waited until the **status** change
 
 - **Step 4 :** **ACCESS WEBSITE VIA CLOUDFRONT**
 
+Accessed the website using the **CloudFront distribution** **domain name** and verified that the content is being served successfully through the **CDN with HTTPS enabled** and improved **loading performance** compared to the **direct S3 endpoint**.
+
+![Project Screenshot](screenshots/03-cloudfront-setup.png)
+
 
 
 
