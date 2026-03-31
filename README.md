@@ -145,7 +145,7 @@ Created a **cache invalidation** request in CloudFront using the **/*** path to 
 
 Verified that the **updated content** was successfully fetched from the **S3 origin** and displayed correctly after **invalidation**.
 
-![Project Screenshot](screenshots/04-cloudfront-output.png
+![Project Screenshot](screenshots/04-cloudfront-output.png)
 
 
 - **Summary :**
