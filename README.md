@@ -92,7 +92,7 @@ If the requested content is not cached, CloudFront retrieves it from the S3 buck
   Disabled the “**Block all public access**” setting to allow public access.
   Uploaded the website files **(index.html)** into the bucket.
 
-  ![Project Screenshot](screenshots/)
+  ![Project Screenshot](screenshots/01-bucket-created.png)
 
 
   Enabled static website hosting from the **bucket properties** and defined **index.html** as the **default document**.
