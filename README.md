@@ -126,6 +126,7 @@ Initiated the **distribution deployment** and waited until the **status** change
 
 ![Project Screenshot](screenshots/03-cloudfront-setup.png)
 
+- **Step 4 :** **ACCESS WEBSITE VIA CLOUDFRONT**
 
 
 
