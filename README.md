@@ -106,5 +106,9 @@ If the requested content is not cached, CloudFront retrieves it from the S3 buck
 
   ![Project Screenshot](screenshots/01-bucket-policy.png)
 
+- **Step 2  :**
+
+
+
 
 
