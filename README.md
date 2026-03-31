@@ -20,7 +20,7 @@ The setup includes **static website hosting**, **secure access configuration**, 
   -Amazon CloudFront
   -AWS IAM
 
-- **Key Features :**
+-- **Key Features :**
 
 - Static website hosting using S3
 - Global content delivery using CloudFront CDN
