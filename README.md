@@ -124,7 +124,7 @@ Updated the **S3 bucket policy automatically** through CloudFront to allow acces
 
 Initiated the **distribution deployment** and waited until the **status** changed to **deployed**.
 
-![Project Screenshot](screenshots/02-s3-website-output.png)
+![Project Screenshot](screenshots/03-cloudfront-setup.png)
 
 
 
