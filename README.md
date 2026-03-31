@@ -56,6 +56,15 @@ The setup includes **static website hosting**, **secure access configuration**, 
 
 ![Project Screenshot](Archiecture-Diagram.png)
 
+- **Project Flow :**
+
+1. User requests website using CloudFront URL
+2. CloudFront checks if content is cached
+3. If cached → serves directly (fast response)
+4. If not cached → fetches from S3 bucket
+5. Content is delivered to user and cached at edge location
+6. Future requests are served faster from cache
+
 
 
 ![Project Screenshot](screenshots/)
