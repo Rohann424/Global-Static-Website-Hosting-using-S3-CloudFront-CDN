@@ -135,7 +135,23 @@ Accessed the website using the **CloudFront distribution** **domain name** and v
 
 - **Step 5 :** **CACHING TEST + INVALIDATION**
 
+Updated the existing website content by modifying the **index.html** file and **re-uploading** it to the **S3 bucket**. 
 
+Accessed the **CloudFront URL** and observed that the **previous version** of the content was still being served due to **caching**. 
+
+Created a **cache invalidation** request in CloudFront using the **/*** path to clear all **cached objects**. 
+
+![Project Screenshot](screenshots/04-cloudfront-output.png)
+
+Verified that the **updated content** was successfully fetched from the **S3 origin** and displayed correctly after **invalidation**.
+
+![Project Screenshot](screenshots/04-cloudfront-output.png
+
+
+- **Summary :**
+**This project demonstrates the implementation of a secure and scalable static website hosting solution using AWS services.**
+**By integrating Amazon S3 with CloudFront CDN, the system ensures high availability, low latency, and efficient global content delivery.**
+**The use of caching, HTTPS enforcement, and access control enhances both performance and security, making this architecture suitable for real-world production use cases.**
 
 
 
