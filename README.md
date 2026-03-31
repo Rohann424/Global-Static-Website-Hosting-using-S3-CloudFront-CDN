@@ -90,8 +90,6 @@ If the requested content is not cached, CloudFront retrieves it from the S3 buck
 
   Created an **Amazon S3 bucket** with a globally **unique name** and configured it for **static website hosting**.
   
-  Disabled the “**Block all public access**” setting to allow public access.
-  
   Uploaded the website files **(index.html)** into the bucket.
 
   ![Project Screenshot](screenshots/01-bucket-created.png)
@@ -101,6 +99,8 @@ If the requested content is not cached, CloudFront retrieves it from the S3 buck
 
   ![Project Screenshot](screenshots/01-static-website-hosting-enabled.png)
 
+
+  Disabled the “**Block all public access**” setting to allow public access.
 
   Updated the **bucket policy** to **allow public read access (s3:GetObject)** for all objects inside the bucket to resolve access issues and make the **website publicly accessible**.
 
